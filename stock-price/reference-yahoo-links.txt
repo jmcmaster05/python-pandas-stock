@@ -1,0 +1,5 @@
+http://finance.yahoo.com/quote/F/history?period1=946706400&period2=1483164000&interval=1d&filter=history&frequency=1d
+http://finance.yahoo.com/quote/GM/history?period1=946706400&period2=1483164000&interval=1d&filter=history&frequency=1d
+http://finance.yahoo.com/quote/TM/history?period1=946706400&period2=1483164000&interval=1d&filter=history&frequency=1d
+http://finance.yahoo.com/quote/FCAU/history?period1=946706400&period2=1483164000&interval=1d&filter=history&frequency=1d
+http://finance.yahoo.com/quote/HMC/history?period1=946706400&period2=1483164000&interval=1d&filter=history&frequency=1d
