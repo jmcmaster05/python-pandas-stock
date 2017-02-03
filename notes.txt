@@ -1,0 +1,96 @@
+https://www.continuum.io/downloads#osx
+  Graphical Installer
+  Download the graphical installer
+  Double-click the downloaded .pkg file and follow the instructions
+  Command Line Installer
+
+  Download the command-line installer
+  Optional: Verify data integrity with MD5 or SHA-256   More info
+  In your terminal window type one of the below and follow the instructions:
+  Python 3.6 version
+  bash Anaconda3-4.3.0-MacOSX-x86_64.sh
+  Python 2.7 version
+  bash Anaconda2-4.3.0-MacOSX-x86_64.sh
+
+http://www.augustkleimo.com/import-and-plot-stock-price-data-with-python-pandas-and-seaborn/
+
+#
+http://pandas.pydata.org
+
+# Pandas Cheat Sheet
+https://github.com/pandas-dev/pandas/blob/master/doc/cheatsheet/Pandas_Cheat_Sheet.pdf/
+
+# 10-minute tour of pandas
+https://vimeo.com/59324550
+
+http://nbviewer.jupyter.org/urls/gist.github.com/wesm/4757075/raw/a72d3450ad4924d0e74fb57c9f62d1d895ea4574/PandasTour.ipynb
+
+#
+http://pandas.pydata.org/pandas-docs/stable/install.html
+
+@local:~$ pip --version
+  pip 9.0.1 from /usr/local/lib/python2.7/site-packages (python 2.7)
+
+@local:~$ /usr/bin/env python --version
+  Python 2.7.13
+
+@local:~$ pip install --upgrade pip
+  Requirement already up-to-date: pip in /usr/local/lib/python2.7/site-packages
+
+# Required Dependencies
+
+    setuptools
+    NumPy: 1.7.1 or higher
+    python-dateutil: 1.5 or higher
+    pytz: Needed for time zone support
+
+# Recommended Dependencies
+
+@local:~$ pip install nose
+
+@local:~$ pip install numexpr
+  Requirement already satisfied: numpy>=1.6 in /usr/local/lib/python2.7/site-packages (from numexpr)
+  Installing collected packages: numexpr
+  Successfully installed numexpr-2.6.2
+
+@local:~$ pip install Bottleneck
+  Requirement already satisfied: numpy in /usr/local/lib/python2.7/site-packages (from Bottleneck)
+  Installing collected packages: Bottleneck
+  Successfully installed Bottleneck-1.2.0
+
+# Optional Dependencies
+
+@local:~$ pip install matplotlib
+  Requirement already satisfied: python-dateutil in /usr/local/lib/python2.7/site-packages (from matplotlib)
+  Requirement already satisfied: pytz in /usr/local/lib/python2.7/site-packages (from matplotlib)
+  Requirement already satisfied: six>=1.10 in /usr/local/lib/python2.7/site-packages (from matplotlib)
+  Requirement already satisfied: numpy>=1.7.1 in /usr/local/lib/python2.7/site-packages (from matplotlib)
+  Building wheels for collected packages: subprocess32, functools32
+  Successfully built subprocess32 functools32
+  Installing collected packages: cycler, subprocess32, functools32, pyparsing, matplotlib
+  Successfully installed cycler-0.10.0 functools32-3.2.3.post2 matplotlib-2.0.0 pyparsing-2.1.10 subprocess32-3.2.7
+
+# Install Pandas
+
+@local:~$ pip install pandas
+  Installing collected packages: numpy, pytz, pandas
+  Successfully installed numpy-1.12.0 pandas-0.19.2 pytz-2016.1
+    Alternative on Ubuntu: aptitude install python-pandas
+
+# Test
+
+@local:~$ vim pandas-test.py
+  #!/usr/bin/env python
+  import pandas as pd
+  pd.test()
+
+@local:~$ python pandas-test.py
+  Running unit tests for pandas
+  pandas version 0.19.2
+  numpy version 1.12.0
+  pandas is installed in /usr/local/lib/python2.7/site-packages/pandas
+  Python version 2.7.13 (default, Dec 17 2016, 23:03:43) [GCC 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1)]
+  nose version 1.3.7
+    ----------------------------------------------------------------------
+    Ran 10553 tests in 519.149s
+    FAILED (SKIP=626, errors=27, failures=5)
